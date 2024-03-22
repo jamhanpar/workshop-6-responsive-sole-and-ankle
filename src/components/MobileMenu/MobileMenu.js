@@ -47,7 +47,7 @@ const Overlay = styled(DialogOverlay)`
 `;
 
 const Content = styled(DialogContent)`
-  background-color: ${COLORS.white};
+  background-color: var(--color-white);
   height: 100%;
   width: 300px;
   display: flex;
@@ -73,7 +73,7 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-  color: ${COLORS.gray[900]};
+  color: var(--color-graye);
   font-weight: ${WEIGHTS.medium};
   text-transform: uppercase;
   text-decoration: none;
