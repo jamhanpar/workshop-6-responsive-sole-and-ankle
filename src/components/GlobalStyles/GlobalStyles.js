@@ -78,6 +78,8 @@ html {
   --color-gray-700: ${COLORS.gray[700]};
   --color-gray-900: ${COLORS.gray[900]};
 
+  --color-backdrop: hsl(220deg 5% 40% / 0.8);
+
   /*
     Silence the warning about missing Reach Dialog styles
   */

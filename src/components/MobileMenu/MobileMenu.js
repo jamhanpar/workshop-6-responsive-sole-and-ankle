@@ -41,7 +41,7 @@ const Overlay = styled(DialogOverlay)`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: hsla(220deg 5% 40% / 0.8);
+  background-color: var(--color-backdrop);
   display: flex;
   justify-content: flex-end;
 `;
